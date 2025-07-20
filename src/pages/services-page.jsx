@@ -22,7 +22,7 @@ export default function ServicesPage() {
       icon: Building2,
       title: "Public Toilet Solutions",
       description: "Durable and hygienic public restroom facilities",
-      link: "/services/public-toilets",
+      link: "/services/sanitary",
       image:
         "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     },
