@@ -21,7 +21,7 @@ const routes = createBrowserRouter([
       { path: "/blog", element: <BlogPage /> },
       { path: "/contact", element: <ContactPage /> },
       { path: "/services/custom-furniture", element: <CustomFurniturePage /> },
-      { path: "//services/mining", element: <MiningPage /> },
+      { path: "/services/mining", element: <MiningPage /> },
       { path: "/services/wood-finishing", element: <WoodFinishingPage /> },
       { path: "/services/sanitary", element: <SanitaryPage /> },
       { path: "/services", element: <ServicesPage /> },

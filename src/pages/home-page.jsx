@@ -9,6 +9,9 @@ import {
   Pickaxe,
 } from "lucide-react";
 import { useEffect } from "react";
+import image from "../assets/bin.jpg";
+import sofa from "../assets/sofa.jpg";
+import sofa1 from "../assets/sofa-3.jpg";
 import Testimonials from "../components/testimonial";
 
 export default function HomePage() {
@@ -102,7 +105,7 @@ export default function HomePage() {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                src={sofa1}
                 alt="Wood craftsmanship workshop"
                 width={500}
                 height={400}
@@ -175,7 +178,7 @@ export default function HomePage() {
           {/* Bottom Image */}
           <div className="relative scroll-animate">
             <img
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+              src={sofa}
               alt="Mining operations"
               width={1000}
               height={400}
